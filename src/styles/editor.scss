@@ -1,0 +1,63 @@
+#editor {
+  width: 100%;
+  padding: 20px 0 0 0;
+
+  h3 {
+    font-size: 30px;
+    color: #333;
+    margin: 0 0 20px 0;
+  }
+
+  #options {
+    
+    .option {
+      margin: 0 auto;
+      display: inline-block;
+
+      /* Chrome, Safari, Edge, Opera */
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      /* Firefox */
+      input[type=number] {
+        -moz-appearance: textfield;
+      }
+    }
+
+    span {
+      margin: 20px 20px 0 20px;
+      color: #000;
+      display: block;
+    }
+
+    .panelInput {
+      margin: 20px;
+      width: 90px;
+      height: 90px;
+      font-size: 36px;
+      text-align: center;
+      background: #fff;
+      color: #4E944F;
+      border-radius: 9px;
+      border: 1px solid #e1e1e1;
+
+      &:focus {
+        background: #f9f9f9;
+        outline: none !important;
+        border-color: #4E944F;
+      }
+    }
+  }
+
+  .colorPicker {
+    max-width: 100%;
+    margin-bottom: 20px !important;
+  }
+
+  .button-pos {
+    margin: 20px;
+  }
+}
