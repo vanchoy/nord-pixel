@@ -7,7 +7,6 @@ import ButtonArrow from '../components/buttons/ButtonArrow';
 import heroWallpaper from '../assets/images/welcome-wallpaper.jpg';
 
 import { buttonColor } from '../constants/styles';
-import '../styles/form.scss';
 
 const HeroSectionStyle = styled.section`
   /* ====== SECTION SETTINGS ====== */
