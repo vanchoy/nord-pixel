@@ -6,7 +6,7 @@ import NotFoundPage from '../pages/404';
 const Routing = () => {
   return (
     <Routes>
-      <Route exact path="/" element={<IndexPage/>} />
+      <Route exact path="/nord-pixel/" element={<IndexPage/>} />
 
       <Route path="" element={<NotFoundPage/>} />
       <Route path="*" element={<NotFoundPage/>} />
