@@ -11,10 +11,8 @@ const DrawingPanel = (props) => {
   }
 
   return (
-    <div className="drawingPanel">
-      <div className="canvas" ref={panelRef}>
-        {rows}
-      </div>
+    <div className="canvas" ref={panelRef}>
+      {rows}
     </div>
   );
 };
