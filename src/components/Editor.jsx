@@ -1,7 +1,6 @@
 import { useState, useRef } from 'react';
 import { ChromePicker } from 'react-color';
-import { exportComponentAsPNG } from 'react-component-export-image';
-import { exportComponentAsJPEG } from 'react-component-export-image';
+import { exportComponentAsPNG, exportComponentAsJPEG } from 'react-component-export-image';
 
 import '../styles/editor.scss';
 
@@ -19,7 +18,7 @@ const Editor = () => {
   const [hideOptions, setHideOptions] = useState(false); // Hiding the user input options for panel dimension when start drawing
   const [hideDrawingPanel, setHideDrawingPanel] = useState(true); // Hide/show drawing panel (hide before start to draw and show when the user start to draw)
   const [buttonText, setButtonText] = useState("Click to start"); // Default button text
-  const [selectedColor, setColor] = useState("#f44336"); // Default first color for the color picker
+  const [selectedColor, setColor] = useState("#000"); // Default first color for the color picker
   const panelRef = useRef();
 
   const initDrawPanel = () => {
@@ -39,7 +38,7 @@ const Editor = () => {
   };
 
   return (
-    <div id="editor" className="grid">
+    <div className="grid">
       { 
         hideDrawingPanel &&
         (
@@ -71,12 +70,12 @@ const Editor = () => {
             <div className="grid-col-2-6 center">
               <ChromePicker className="colorPicker center" color={selectedColor} onChangeComplete={changeColor} />
               <div className="button-pos">
-                <ButtonRegular type="button" onClick={() => exportComponentAsPNG(panelRef)} btnColor={buttonColor} btnHover={buttonHoverColor} btnTextColor={whiteRegular} btnTextHoverColor={buttonColor} btnText="Export as PNG">
+                <ButtonRegular type="button" onClick={() => exportComponentAsPNG(panelRef, {fileName: "Pixel Art"})} btnColor={buttonColor} btnHover={buttonHoverColor} btnTextColor={whiteRegular} btnTextHoverColor={buttonColor} btnText="Export as PNG">
                   <FontAwesomeIcon pull="right" icon={solid('image')} size="1x" />
                 </ButtonRegular>
               </div>
               <div className="button-pos">
-                <ButtonRegular type="button" onClick={() => exportComponentAsJPEG(panelRef)} btnColor={buttonColor} btnHover={buttonHoverColor} btnTextColor={whiteRegular} btnTextHoverColor={buttonColor} btnText="Export as JPEG">
+                <ButtonRegular type="button" onClick={() => exportComponentAsJPEG(panelRef, {fileName: "Pixel Art"})} btnColor={buttonColor} btnHover={buttonHoverColor} btnTextColor={whiteRegular} btnTextHoverColor={buttonColor} btnText="Export as JPEG">
                   <FontAwesomeIcon pull="right" icon={solid('image')} size="1x" />
                 </ButtonRegular>
               </div>
