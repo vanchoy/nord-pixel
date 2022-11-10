@@ -13,5 +13,3 @@ root.render(
 );
 
 serviceWorker.unregister();
-
-serviceWorker.unregister();
