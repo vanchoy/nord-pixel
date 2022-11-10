@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nord-pixel/static/css/main.36f93395.css",
+    "main.js": "/nord-pixel/static/js/main.383c4015.js",
+    "static/media/logo.gif": "/nord-pixel/static/media/logo.b0bac75397c869bdf260.gif",
+    "static/media/welcome-wallpaper.jpg": "/nord-pixel/static/media/welcome-wallpaper.a7e28763b58dd3589920.jpg",
+    "index.html": "/nord-pixel/index.html",
+    "main.36f93395.css.map": "/nord-pixel/static/css/main.36f93395.css.map",
+    "main.383c4015.js.map": "/nord-pixel/static/js/main.383c4015.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36f93395.css",
+    "static/js/main.383c4015.js"
+  ]
+}
