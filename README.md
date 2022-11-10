@@ -1,5 +1,5 @@
 ## Requirements
-Installed Node Version `17+` (otherwise you can't run the project) 
+Installed Node Version `18+` (otherwise you can't run the project) 
 React `18+`
 
 ## Installation
