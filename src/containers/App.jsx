@@ -23,7 +23,7 @@ const App = () => {
       <SoMe />
       <ScrollToTopContainer>
         <ButtonRegular type="button" btnWidth="40px" btnPadding="10px" btnBorderRadius="50%" onClick={scrollTop} btnColor={buttonColor} btnHover={whiteRegular} btnTextColor={whiteRegular} btnTextHoverColor={buttonColor} btnText="">
-          <FontAwesomeIcon pull="center" icon={solid('angle-up')} size="1x" />
+          <FontAwesomeIcon icon={solid('angle-up')} size="1x" />
         </ButtonRegular>
       </ScrollToTopContainer>
       <Footer />
