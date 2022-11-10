@@ -132,7 +132,7 @@ const LatestFoodSectionStyle = styled.section`
   --section-bg-s1-min_height: auto;
   --section-bg-s1-max_height: auto;
   --section-bg-s1-padding: 20px 20px 40px 20px;
-  --section-bg-s1-bg_color: #f0f0f0;out
+  --section-bg-s1-bg_color: #f0f0f0;
   --section-bg-s1-bg_image: none;
   --section-bg-s1-bg_attachment: none;
   --section-bg-s1-bg_position: relative;
