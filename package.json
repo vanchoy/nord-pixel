@@ -12,7 +12,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.3.0",
-    "node-sass": "^7.0.1",
+    "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-color": "^2.19.3",
     "react-component-export-image": "^1.0.6",
