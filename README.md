@@ -1,3 +1,7 @@
+## Requirements
+Installed Node Version `17+` (otherwise you can't run the project) 
+React `18+`
+
 ## Installation
 
 ### `npm i`

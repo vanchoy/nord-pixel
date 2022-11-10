@@ -1,15 +1,15 @@
 {
-  "short_name": "Care Food",
-  "name": "Care Food",
+  "short_name": "Nord Pixel",
+  "name": "Nord Pixel",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "logo.gif",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo.png",
-      "type": "image/png",
+      "src": "logo.gif",
+      "type": "image/gif",
       "sizes": "512x512"
     }
   ],
